@@ -1,0 +1,35 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/DMA_project/last_vers/processor_2/processor_send_task_to_dma_isim_beh.exe -prj F:/DMA_project/last_vers/processor_2/processor_send_task_to_dma_beh.prj work.processor_send_task_to_dma work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/DMA_project/last_vers/processor_2/pro.v" into library work
+Analyzing Verilog file "F:/DMA_project/last_vers/processor_2/memory.v" into library work
+Analyzing Verilog file "F:/DMA_project/last_vers/processor_2/io_device_2.v" into library work
+Analyzing Verilog file "F:/DMA_project/last_vers/processor_2/IOdevice.v" into library work
+Analyzing Verilog file "F:/DMA_project/last_vers/processor_2/dma.v" into library work
+Analyzing Verilog file "F:/DMA_project/last_vers/processor_2/decoder.v" into library work
+Analyzing Verilog file "F:/DMA_project/last_vers/processor_2/controller.v" into library work
+Analyzing Verilog file "F:/DMA_project/last_vers/processor_2/top_module.v" into library work
+WARNING:HDLCompiler:751 - "F:/DMA_project/last_vers/processor_2/top_module.v" Line 78: Redeclaration of ansi port DREQ2 is not allowed
+WARNING:HDLCompiler:751 - "F:/DMA_project/last_vers/processor_2/top_module.v" Line 79: Redeclaration of ansi port DACK2 is not allowed
+Analyzing Verilog file "F:/DMA_project/last_vers/processor_2/processor_send_task_to_dma.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module pro
+Compiling module decoder
+Compiling module memory
+Compiling module iodevice
+Compiling module iodevice_2
+Compiling module DB_controller
+Compiling module dma_module
+Compiling module top_module
+Compiling module processor_send_task_to_dma
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable F:/DMA_project/last_vers/processor_2/processor_send_task_to_dma_isim_beh.exe
+Fuse Memory Usage: 29364 KB
+Fuse CPU Usage: 1249 ms

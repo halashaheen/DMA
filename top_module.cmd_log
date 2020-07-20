@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/DMA_project/processor_2/top_module.xst" -ofn "F:/DMA_project/processor_2/top_module.syr" 

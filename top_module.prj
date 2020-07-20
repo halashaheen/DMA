@@ -1,0 +1,8 @@
+verilog work "pro.v"
+verilog work "memory.v"
+verilog work "io_device_2.v"
+verilog work "IOdevice.v"
+verilog work "dma.v"
+verilog work "decoder.v"
+verilog work "controller.v"
+verilog work "top_module.v"

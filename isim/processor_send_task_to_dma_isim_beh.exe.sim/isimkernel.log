@@ -1,0 +1,28 @@
+Command line:
+   processor_send_task_to_dma_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49757
+
+Fri Dec 27 14:00:56 2019
+
+
+ Elaboration Time: 0.5625 sec
+
+ Current Memory Usage: 6292.73 Meg
+
+ Total Signals          : 141
+ Total Nets             : 177
+ Total Signal Drivers   : 63
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 77
+ Total Traceable Variables  : 78
+ Total Scalar Nets and Variables : 2674
+
+ Total Simulation Time: 0.671875 sec
+
+ Current Memory Usage: 6292.73 Meg
+
+Fri Dec 27 14:01:16 2019
+

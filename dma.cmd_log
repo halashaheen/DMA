@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/DMA_project/processor_2/dma.xst" -ofn "F:/DMA_project/processor_2/dma.syr" 
+xst -intstyle ise -ifn "F:/DMA_project/processor_2/dma.xst" -ofn "F:/DMA_project/processor_2/dma.syr" 

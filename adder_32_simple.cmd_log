@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "E:/processor/adder_32_simple.xst" -ofn "E:/processor/adder_32_simple.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 adder_32_simple.ngc adder_32_simple.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o adder_32_simple_map.ncd adder_32_simple.ngd adder_32_simple.pcf 
+xst -intstyle ise -ifn "E:/processor/adder_32_simple.xst" -ofn "E:/processor/adder_32_simple.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 adder_32_simple.ngc adder_32_simple.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o adder_32_simple_map.ncd adder_32_simple.ngd adder_32_simple.pcf 
+xst -intstyle ise -ifn "E:/processor/adder_32_simple.xst" -ofn "E:/processor/adder_32_simple.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 adder_32_simple.ngc adder_32_simple.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o adder_32_simple_map.ncd adder_32_simple.ngd adder_32_simple.pcf 
+par -w -intstyle ise -ol high -mt off adder_32_simple_map.ncd adder_32_simple.ncd adder_32_simple.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml adder_32_simple.twx adder_32_simple.ncd -o adder_32_simple.twr adder_32_simple.pcf 

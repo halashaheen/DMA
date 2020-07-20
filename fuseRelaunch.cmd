@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/DMA_project/last_vers/processor_2/processor_send_task_to_dma_isim_beh.exe" -prj "F:/DMA_project/last_vers/processor_2/processor_send_task_to_dma_beh.prj" "work.processor_send_task_to_dma" "work.glbl" 
